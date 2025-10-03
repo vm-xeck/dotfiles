@@ -18,4 +18,7 @@ niri:
 fuzzel:
 	@ln -svf $(CWD)/fuzzel/fuzzel.ini $(CONFIGDIR)/fuzzel/fuzzel.ini
 
-.PHONY: all foot micro sway niri fuzzel
+libskk:
+	@ln -svf $(CWD)/libskk $(CONFIGDIR)/libskk
+
+.PHONY: all foot micro sway niri fuzzel libskk
