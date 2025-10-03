@@ -1,4 +1,10 @@
 {
+    "kuin.cpp": {
+        "filetype": "tooheavy"
+    },
+    "*.fs": {
+        "filetype": "fsharp"
+    },
     "*.fsx": {
         "filetype": "fsharp"
     },
@@ -6,8 +12,11 @@
     "ft:kuin": {
         "commenttype": "; %s"
     },
+    "ft:nim": {
+        "tabsize": 2
+    },
     "hlsearch": true,
-    "lsp.server": "ocaml=ocaml-lsp-server",
+    "lsp.server": "ocaml=ocaml-lsp-server,fsharp=fsautocomplete",
     "softwrap": true,
     "statusformatl": " $(filename)($(line),$(col)) $(percentage)% $(modified)",
     "statusformatr": "| $(opt:fileformat) | $(opt:encoding) | $(opt:filetype) ",
