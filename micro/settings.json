@@ -15,8 +15,11 @@
     "ft:nim": {
         "tabsize": 2
     },
+    "ft:typst": {
+        "commenttype": "// %s"
+    },
     "hlsearch": true,
-    "lsp.server": "ocaml=ocaml-lsp-server,fsharp=fsautocomplete",
+    "lsp.server": "ocaml=ocaml-lsp-server,fsharp=fsautocomplete,haskell=haskell-language-server",
     "softwrap": true,
     "statusformatl": " $(filename)($(line),$(col)) $(percentage)% $(modified)",
     "statusformatr": "| $(opt:fileformat) | $(opt:encoding) | $(opt:filetype) ",
