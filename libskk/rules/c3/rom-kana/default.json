@@ -1,6 +1,7 @@
 {
     "include": [
-        "tutcode/default"
+        "tutcode/default",
+        "local-expansion"
     ],
 
     "define": {
